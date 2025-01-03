@@ -27,7 +27,7 @@ public class Start : Script
         _chroma.Keyboard.SetCustomAsync(keyboardCharacterColor);
         Tick += OnTick;
         Aborted += OnAborted;
-        KeyDown += OnKeyDown;
+        //KeyDown += OnKeyDown;
         ChangeColorToCharacter();
     }
 
